@@ -1,9 +1,10 @@
 # Write your code here.
 katz_deli = []
-katz_deli_with_positions = Array.new
+
 
 
 def line(array)
+  katz_deli_with_positions = Array.new
   if array.size != 0
     array.each_with_index do |name,spot|
       katz_deli_with_positions.push((spot+1).to_s + ".")
