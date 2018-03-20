@@ -10,7 +10,7 @@ def line(array)
       katz_deli_with_positions.push((spot+1).to_s + ".")
       katz_deli_with_positions.push(name)
     end
-    puts "The line is currently:  " + katz_deli_with_positions.join(" ")
+    puts "The line is currently: " + katz_deli_with_positions.join(" ")
     # reminder that .split is for strings to arrays and .join is arrays to strings
   elsif array.size == 0
     puts "The line is currently empty."
