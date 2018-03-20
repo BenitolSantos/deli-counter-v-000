@@ -24,6 +24,7 @@ def take_a_number(array,new_person)
 end
 
 def now_serving(array)
+  puts "There is nobody to be served!"
 end
 
 take_a_number(katz_deli,"tasha")
