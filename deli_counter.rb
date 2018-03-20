@@ -24,4 +24,4 @@ def take_a_number(array,new_person)
   return "Welcome, #{new_person}. You are number {(array.index(new_person)+1)} in line."
 end
 
-take_a_number(katz_deli, tasha)
+take_a_number(katz_deli,"tasha")
