@@ -11,7 +11,7 @@ def line(array)
     end
     return "The line is currently:" + katz_deli_with_positions.split(" ")
   elsif array.size == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
