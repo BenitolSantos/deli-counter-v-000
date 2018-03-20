@@ -1,9 +1,10 @@
 # Write your code here.
 katz_deli = []
+line_numbers = Array.new
 
 def line(array)
   puts "The line is currently empty." if array.size == 0
-  line_numbers = 
+  
   puts "The line is currently:"
 end
 
