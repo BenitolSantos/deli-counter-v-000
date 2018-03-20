@@ -6,5 +6,5 @@ def line(array)
 end
 
 def take_a_number(array,new_person)
-  line 
+  array.push(new_person)
 end
