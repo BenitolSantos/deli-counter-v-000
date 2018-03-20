@@ -3,8 +3,8 @@ katz_deli = []
 
 def line(array)
   puts "The line is currently empty." if array.size == 0
-  line_numbers
-  puts "The line is currently:
+  line_numbers = 
+  puts "The line is currently:"
 end
 
 def take_a_number(array,new_person)
