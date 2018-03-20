@@ -9,7 +9,7 @@ def line(array)
     katz_deli_with_positions.push(name)
     katz_deli_with_positions.push(spot+1)
   end
-  puts "The line is currently:" katz_deli_with_positions.push(spot)
+  puts "The line is currently:" katz_deli_with_positions.split
 end
 
 def take_a_number(array,new_person)
