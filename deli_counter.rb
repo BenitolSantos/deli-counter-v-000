@@ -1,5 +1,5 @@
 # Write your code here.
 katz_deli = []
 
-line(array)
+def line(array)
 end
