@@ -9,6 +9,6 @@ end
 
 def take_a_number(array,new_person)
   array.push(new_person)
-  line_numbers.(array.index(new_person))
+  line_numbers.push(array.index(new_person))
   return "Welcome, #{new_person}. You are number {(array.index(new_person)+1)} in line."
 end
