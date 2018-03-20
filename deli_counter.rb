@@ -7,7 +7,7 @@ line_numbers = Array.new
 def line(array)
   puts "The line is currently empty." if array.size == 0
   array.each_with_index do |name,spot|
-    .push(spot+1)
+    line_numbers.push(spot+1)
   end
   puts "The line is currently:"
 end
