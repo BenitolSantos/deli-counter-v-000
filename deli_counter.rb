@@ -5,6 +5,7 @@ katz_deli = []
 
 def line(array)
   puts "The line is currently empty." if array.size == 0
+  array.each_with_index
   puts "The line is currently:"
 end
 
