@@ -4,14 +4,14 @@ katz_deli_with_positions = Array.new
 
 
 def line(array)
-  puts "The line is currently empty." if array.size == 0
   if array.size != 0
     array.each_with_index do |name,spot|
       katz_deli_with_positions.push((spot+1).to_s + ".")
       katz_deli_with_positions.push(name)
     end
     puts "The line is currently:" + katz_deli_with_positions.split(" ")
-  else
+  elsif array.size == 0
+    puts "The line is currently empty."
   end
 end
 
