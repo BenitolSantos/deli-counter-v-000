@@ -5,7 +5,9 @@ katz_deli = []
 
 def line(array)
   puts "The line is currently empty." if array.size == 0
-  array.each_with_index |name,spot|
+  array.each_with_index do |name,spot|
+    (spot+1).push
+  end
   puts "The line is currently:"
 end
 
