@@ -1,12 +1,13 @@
 # Write your code here.
 katz_deli = []
+line_numbers = Array.new
 
 
 
 def line(array)
   puts "The line is currently empty." if array.size == 0
   array.each_with_index do |name,spot|
-    (spot+1).push
+    .push(spot+1)
   end
   puts "The line is currently:"
 end
