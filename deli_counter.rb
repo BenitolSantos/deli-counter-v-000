@@ -24,7 +24,7 @@ def take_a_number(array,new_person)
 end
 
 def now_serving(array)
-  if array.size == 0
+  if array.size < 1
     puts "There is nobody to be served!"
   else
     puts "Currently serving " + array.first + "."
