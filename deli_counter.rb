@@ -6,10 +6,10 @@ katz_deli_with_positions = Array.new
 def line(array)
   puts "The line is currently empty." if array.size == 0
   array.each_with_index do |name,spot|
-    katz_deli_with_positions.push(name)
     katz_deli_with_positions.push(spot+1)
+    katz_deli_with_positions.push(name)
   end
-  puts "The line is currently:" katz_deli_with_positions.split
+  puts "The line is currently:" katz_deli_with_positions.split()
 end
 
 def take_a_number(array,new_person)
