@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(array)
-  array.size == 0 ? puts "The line is currently empty."
+  puts "The line is currently empty." if array.size == 0 
 end
 
 def take_a_number(array,new_person)
