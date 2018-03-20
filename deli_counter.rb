@@ -19,7 +19,7 @@ def line(array)
 end
 
 def take_a_number(array,new_person)
-  binding.pry
+
   array.push(new_person)
   return "Welcome, #{new_person}. You are number {(array.index(new_person)+1)} in line."
 end
